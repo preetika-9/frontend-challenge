@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .full_width{
     width: 100%;
@@ -13,10 +14,9 @@
     margin: auto;
 }
 
-.navbar{
-    
+.navbar{  
     width: 100%;
-    padding: 15px 0;
+    padding: 30px 0;
 }
 
 .navbar .max-width{
@@ -26,7 +26,8 @@
 }
 
 .navbar.logo a{
-    height: fit-content;
+    height: 70px;
+    width: fit-content;
 }
 
 .navbar .menu li{
@@ -43,41 +44,226 @@
 
 .container{
     position: relative;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .text-block{
     position: absolute;
-    bottom:400px;
-    right: 80px;
+    bottom:268px;
+    right: 60px;
     background-color:#1791A0;
     color: white; 
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .featured{
     padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 35px;
 }
 .research{
-    font-size: 18px;
+    font-size: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
+    line-height: 40px;
 }
 
-.text-block p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;   
-}
+
 .date{
-    font-size: 5px;
+    font-size: 10px;
 }
 .main{
-    font-size: 10px;
+    font-size: 15px;
     padding-bottom: 10px;
     padding-top: 10px;
+    line-height: 22px;
 }
 
 .read-more{
-    font-size: 11px;
+    font-size: 12px;
+}
+.text{
+    font-size: 25px;
+    color: #FFFF;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 100%;
+    max-width: 100%;
+    padding: 15px;
+    position: absolute;
+    bottom:150px;
+    right:40px;
+}
+.icons > ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.icons >ul >li{
+    display: inline-block;
+    margin:0 10px;
+
+}
+.icons >ul >li> a {
+    text-decoration: none;
+    color: #FFFF;
+    font-size: 25px;
+    
+}
+
+.container1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.text1{
+    padding-left:150px ;
+    padding-top: 50px;
+    padding-right: 150px;
+    line-height: 28px;
+    font-size:large;
+    padding-bottom: 50px;
+}
+
+.image{
+    padding-top: 70px;
+    padding-bottom: 70px; 
+}
+.container2{
+    background-color:  #F8F8F8;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+
+.column{
+    -ms-flex: 50%;
+    flex: 50%;
+    padding: 20px;
+}
+
+.column img{
+    margin-top:25px;
+    margin-right: 10px;
+   padding-top: 20px;
+}
+
+.container3{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.event_wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 50px;
+}
+
+.card{
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 28%;
+    padding-bottom: 20px;
+    
+}
+
+
+.card:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);
+}
+._container{
+    padding:2px 16px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.event_wrapper2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.card1{
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    padding-bottom: 20px;
+    
+}
+
+
+.card1:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);
+}
+._container1{
+    padding:2px 12px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.text2{
+    padding-left:100px ;
+    font-size:medium;
+    padding-top: 50px;
+}
+
+.column1 {
+    float: left;
+    width: 30%;
+    padding: 70px;  
+  }
+  
+  .row1::after {
+    display: none;
+    padding-bottom: 50px;
+  }
+.text3{
+    padding-top: 30px;
+    line-height: 20px;
+  }
+  
+.icons2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 100%;
+    max-width: 100%;
+    padding: 15px;
+    position: absolute;
+    bottom:150px;
+    right:40px;
+}
+.icons2 > ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.icons2 >ul >li{
+    display: inline-block;
+    margin:0 10px;
+
+}
+.icons2 >ul >li> a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    
 }
