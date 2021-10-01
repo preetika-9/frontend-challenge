@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Overpass';
 }
 .full_width{
     width: 100%;
@@ -24,7 +24,9 @@
     align-items: center;
     justify-content: space-between;
 }
-
+.logo{
+    font-family: 'Pacifico';font-size: 30px;
+}
 .navbar.logo a{
     height: 70px;
     width: fit-content;
@@ -48,7 +50,7 @@
 }
 .text-block{
     position: absolute;
-    bottom:268px;
+    bottom:265px;
     right: 60px;
     background-color:#1791A0;
     color: white; 
@@ -226,13 +228,12 @@
 }
 
 .column1 {
-    float: left;
     width: 30%;
     padding: 70px;  
   }
   
-  .row1::after {
-    display: none;
+.row1 {
+    display: flex;
     padding-bottom: 50px;
   }
 .text3{
@@ -267,3 +268,170 @@
     font-size: 25px;
     
 }
+
+.rectangle {
+    height: 100px;
+    width: 520px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: #9A9A9A;
+  }
+
+.txt-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.round{
+    margin-left: 90px;
+    display: flex;
+    
+}
+.round-img{
+    vertical-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.client-info{
+    display: inline-block;
+}
+
+.main2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding-right: 40px;
+    margin: 50px;
+   }
+
+.partner-img{
+    padding-left: 80px;
+}
+.card2 {
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     width: 20%;
+   }
+   
+.card2:hover {
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+   
+.contain {
+     padding: 10px 60px;
+     
+   }
+
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 95%;
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    margin-bottom:30px ;
+}
+
+._text{
+    padding-left: 30px;
+}
+  
+.card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.navbar1{  
+    width: 100%;
+    padding: 30px 0;
+}
+
+.navbar1 .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar1 .menu1 li{
+    list-style: none;
+    display: inline-block;  
+}
+
+.navbar1 .menu1 li a{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+/*footer */
+.footer-section{
+    background-color: #3C3D41;
+    padding-top: 50px;
+    
+}
+
+.footer-logo{
+    font-family: 'Pacifico';font-size: 30px;
+    padding-left: 120px;
+    color:#CCCC;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    color: blanchedalmond;
+}
+
+.footer p{
+    color:#CCCC;
+}
+
+.mail{
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    border-radius: 2px;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+
+.lil-footer{
+    background-color: black;
+    display: flex;
+    padding-left: 40px; 
+    padding-top: 30px;
+}
+
+.lil-footer p{
+    color: blanchedalmond;
+    
+}
+
+.footer-txt{
+    padding-right: 500px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+.icon > p > ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.icon  >ul >li{
+    display: inline-block;
+    margin:0 10px;
+
+}
+.icon >ul >li> a {
+    text-decoration: none;
+    color: #FFFF;
+    font-size: 25px;
+    
+}
+
+
